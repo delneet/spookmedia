@@ -1,0 +1,21 @@
+title: Spookmedia
+description: >-
+  Development, webdevelopment, Ruby (on Rails) and more.
+baseurl: "/spookmedia"
+url: "https://spookmedia.nl"
+twitter_username: delneet
+github_username:  delneet
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
